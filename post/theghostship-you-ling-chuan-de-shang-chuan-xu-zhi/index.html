@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TheGhostShip幽灵船的上船须知 | TheGhostShip幽灵船</title>
+<link rel="shortcut icon" href="https://github.com/AlbertWeyn/theghostship.github.io/favicon.ico?v=1651916711933">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://github.com/AlbertWeyn/theghostship.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="TheGhostShip幽灵船的上船须知 | TheGhostShip幽灵船 - Atom Feed" href="https://github.com/AlbertWeyn/theghostship.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="大家好，我是AlbertWeyn！
+网页底部已经对该博客有大致说明——这是一个用于存放电影《社交网络》（以下简称 TSN ）同人作品的个人博客，并且“TheGhostShip幽灵船”在此仅指本站名称，即本上船须知不针对TSN同人圈中广义定义..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://github.com/AlbertWeyn/theghostship.github.io">
+  <img class="avatar" src="https://github.com/AlbertWeyn/theghostship.github.io/images/avatar.png?v=1651916711933" alt="">
+  </a>
+  <h1 class="site-title">
+    TheGhostShip幽灵船
+  </h1>
+  <p class="site-description">
+    电影《社交网络》同人图/文，以Mark/Eduardo为主（斜线前后有意义）
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/AlbertWeyn" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+        <a href="https://weibo.com/u/7624650339" target="_blank">
+          <i class="ri-weibo-line"></i>
+        </a>
+      
+    
+      
+        <a href="https://aerbote361.lofter.com/" target="_blank">
+          <i class="ri-zhihu-line"></i>
+        </a>
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              TheGhostShip幽灵船的上船须知
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-05-07
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>大家好，我是AlbertWeyn！<br>
+网页底部已经对该博客有大致说明——这是一个用于存放电影《社交网络》（以下简称 TSN ）同人作品的个人博客，并且“TheGhostShip幽灵船”在此仅指本站名称，即本上船须知不针对TSN同人圈中广义定义的”幽灵船“。在这里更新、存放的一切内容仅供TSN粉丝同好阅读、观看。如果您不小心打开了这个网站，请点击右上角×关闭或点击后退键，谢谢！<br>
+这里更新的文字内容将与我在AO3上TSN版块中更新内容一致，关于文字内容有任何意见请前往Lofter主页置顶帖或AO3对应文章评论区下留下您的评论。<br>
+感谢您对TSN电影/书籍原作及其衍生作品的喜爱，希望热爱不灭，初心不改。<br>
+2022.5.7</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://github.com/AlbertWeyn/theghostship.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
